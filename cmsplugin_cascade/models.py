@@ -257,6 +257,7 @@ class CascadeClipboard(models.Model):
         _("Created at"),
         auto_now_add=True,
         editable=False,
+        null=True
     )
 
     last_accessed_at = models.DateTimeField(
