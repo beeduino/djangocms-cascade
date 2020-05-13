@@ -35,7 +35,6 @@ setup(
         'django-cms>=3.5,<4',
         'django-entangled',
         'djangocms-text-ckeditor @ git+https://github.com/beeduino/djangocms-text-ckeditor@changes-for-django3#egg=djangocms-text-ckeditor',
-        #'djangocms-text-ckeditor>=3.7',
         'jsonfield',
         'requests',
     ],
